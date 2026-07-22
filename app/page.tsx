@@ -5,9 +5,9 @@ import { useRouter } from 'next/navigation';
 
 export default function HomePage() {
   const [address, setAddress] = useState('');
-  const [gramPrice, setGramPrice] = useState('$1.43');
-  const [marketCap, setMarketCap] = useState('$3.64B');
-  const [tps, setTps] = useState('43.43');
+  const gramPrice = '$1.43';
+  const marketCap = '$3.64B';
+  const tps = '43.43';
   const router = useRouter();
 
   const handleSearch = (e: React.FormEvent) => {
